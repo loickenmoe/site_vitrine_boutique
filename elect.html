@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/183b574aee.js" crossorigin="anonymous"></script>
+    <title>Nigeria-boutique</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <a href="./index.html"><img src="./images/logo.jpg" alt="logo"></a>
+        <div class="liens">
+            <a href="./index.html">Acceuil</a>
+            <a href="./mat.html">matériels de cuisine</a>
+            <a href="./pat.html">pâtisseries</a>
+            <a href="#images">Images</a>
+            <a href="#videos">Vidéos</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="btn_menu fa-solid fa-bars" onclick="boutton()">
+        </div>
+    </header>
+
+    <!-- maim -->
+    <main>
+        <section>
+            <h1>électroménagers</h1>
+            <h2 id="images">images</h2>
+            <div class="electro_img">
+                <img src="./images/électromenagers/IMG-20230830-WA0005 - aubin choukang.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/IMG-20240120-WA0003 - aubin choukang.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-08-35.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-08-41.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-08-59.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-09-11.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-09-16.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-08-57.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-09-21.jpg" alt="electromenagers">
+                <img src="./images/électromenagers/photo_2024-02-07_13-09-37.jpg" alt="electromenagers">
+            </div>
+            <h2 id="videos">vidéos</h2>
+            <div class="vid">
+                <video controls width="500" height="400" src="./vidéos/1decoupagecondiment.mp4"></video>
+                <video controls width="500" height="400" src="./vidéos/1ecrasseur.mp4"></video>
+                <video controls width="500" height="400"
+                    src="./vidéos/1VID-20230419-WA0019 - aubin choukang.mp4"></video>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <p id="titre">contact</p>
+            <div class="row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-square-phone-flip"></i> (+237) 673 269 141</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> (+237) 673 269 141</p>
+                    <p><i class="fa-solid fa-envelope"></i> choukangaubin@gmail.com</p>
+                </div>
+                <div class="contact-right">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" id="name" placeholder="Entrer votre Nom" required>
+                        <input type="email" id="email" placeholder="Entrer votre Email" required>
+                        <input type="text" id="phone" placeholder="Entrer votre numéro" required>
+                        <textarea id="message" rows="6" placeholder="Entrer votre message"></textarea>
+                        <button type="submit" class="btn3">Soumettre</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="copyriht">
+        <p>Copyright©2024. Nigeria Boutique. All Rights Reserved.</p>
+    </footer>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

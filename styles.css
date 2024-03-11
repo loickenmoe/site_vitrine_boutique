@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/* header */
+header {
+   height: 6rem;
+   width: 100%;
+   padding: 0.5rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #df5239;
+}
+
+header img {
+   width: 10rem;
+   height: 5.5rem;
+   border-radius: 50%;
+}
+
+header .liens {
+   display: flex;
+   gap: 2rem;
+}
+
+header .liens a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.3rem;
+}
+
+header .liens a:hover {
+   border-bottom: 2px solid #219621;
+}
+
+header .btn_menu {
+   width: 3rem;
+   height: 3rem;
+   padding: 0 5px;
+}
+
+header .btn_menu:hover {
+   cursor: pointer;
+}
+
+header .btn_menu i {
+   font-size: 45px;
+   color: #fff;
+}
+
+/* section 1 */
+#apropos {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 6rem;
+   padding-bottom: 3rem;
+   background-color: #c5bdbd;
+}
+
+#apropos .description {
+   font-size: 20px;
+   margin: 15px 0 35px 0;
+}
+
+#titre {
+   font-size: 2rem;
+   font-weight: 700;
+   margin: 2rem 0;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+#apropos>div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+}
+
+#apropos img {
+   width: 50%;
+   border: none;
+   border-radius: 10px;
+}
+
+#apropos .text {
+   width: 30%;
+}
+
+#apropos span {
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 2rem;
+}
+
+.lien {
+   padding: 10px;
+   margin: 1rem 0;
+   font-size: 20px;
+   border-radius: 20px;
+   background-color: #df5239;
+
+}
+
+.lien:hover {
+   background-color: #219621;
+   color: #ffffff;
+}
+
+.lien a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.lien:hover a {
+   color: #ffffff;
+}
+
+/* section 2 */
+#materiels {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 3rem;
+   padding-bottom: 1rem;
+}
+
+#materiels .contenus {
+   display: flex;
+   gap: 10px;
+}
+
+#materiels .contenu img {
+   width: 350px;
+   height: 100%;
+   border: 1px solid #3b3636;
+   padding: 8px;
+   border-radius: 15px;
+   background-color: #df5239;
+}
+
+#materiels .contenu {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+#materiels .contenu p {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+/* section 3  */
+#contact {
+   background-color: #ebf5eb;
+   padding-top: 2rem;
+}
+
+#contact .row {
+   display: flex;
+   gap: 3rem;
+   justify-content: center;
+   align-items: center;
+}
+
+#contact .row .contact-left {
+   margin-top: -4rem;
+}
+
+.contact-left p {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   margin: 1rem 0;
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+.contact-left p i {
+   color: #df5239;
+   font-size: 25px;
+}
+
+
+#contact .row .contact-right form {
+   display: block;
+   width: 450px;
+}
+
+.contact-right form {
+   width: 100%;
+}
+
+form input,
+form textarea {
+   width: 100%;
+   border: 0;
+   outline: none;
+   background-color: #fff;
+   padding: 15px;
+   margin: 5px 0;
+   color: #000;
+   font-size: 16px;
+   font-weight: 400;
+   border-radius: 6px;
+}
+
+form textarea {
+   resize: vertical;
+}
+
+form .btn2 {
+   padding: 14px 60px;
+   font-size: 18px;
+   margin-top: 20px;
+   cursor: pointer;
+}
+
+form .btn3 {
+   padding: 10px 20px;
+   margin: 1rem 0;
+   background-color: #df5239;
+   font-size: 20px;
+   cursor: pointer;
+   border: none;
+   border-radius: 20px;
+   color: #fff;
+}
+
+form .btn3:hover {
+   background-color: #219621;
+}
+
+/* footer */
+.copyriht {
+   width: 100%;
+   text-align: center;
+   padding: 25px 0;
+   background: #df5239;
+   color: #fff;
+   font-weight: 300;
+}
+
+.copyriht i {
+   color: #c5bdbd;
+}
+
+/* page des electromenagers */
+
+section:nth-child(1) h1,
+section:nth-child(1) h2 {
+   text-align: center;
+   text-transform: capitalize;
+   margin: 1rem 0;
+   font-size: 2rem;
+   margin-top: 3rem;
+}
+
+section:nth-child(1) h2 {
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+.electro_img {
+   width: 80%;
+   display: grid;
+   grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(5, 1fr);
+   margin: 1rem auto;
+   gap: 10px;
+}
+
+.electro_img img,
+.mat_img img {
+   width: 100%;
+   height: 250px;
+   border: none;
+   border-radius: 10px;
+   object-fit: cover;
+   border: 1px solid black;
+}
+
+.vid {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   padding-bottom: 2rem;
+}
+
+.vid video {
+   border: none;
+   border-radius: 10px;
+   object-fit: cover;
+   border: 1px solid black;
+}
+
+/* page des materiels de cuisine */
+.mat_img {
+   width: 80%;
+   display: grid;
+   grid-template-rows: repeat(5, 1fr);
+   grid-template-columns: repeat(5, 1fr);
+   margin: 1rem auto;
+   gap: 5px;
+}
+
+/* page des patisseries */
+.pat_img {
+   width: 70%;
+   display: flex;
+   justify-content: center;
+   margin: 1rem auto;
+   gap: 15px;
+}
+
+.pat_img img {
+   width: 100%;
+   border-radius: 10px;
+   border: 1px solid black;
+}
+
+header .fa-solid {
+   display: none;
+}
+
+
+/*============ responsive 768-1440 =========== */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+   /* ==acceuil== */
+   #materiels .contenu img {
+      max-width: 80%;
+   }
+
+   #materiels .contenu p {
+      font-size: 1.1rem;
+   }
+
+   /* ==electro== */
+   .vid {
+      padding: 0 2rem;
+   }
+
+   .vid video {
+      width: 30%;
+   }
+
+   /* ==materiels== */
+   .mat_video video {
+      width: 43%;
+   }
+
+   /* ==patisseries== */
+   .pat_img {
+      width: 90%;
+   }
+
+   .pat_img img {
+      width: 43%;
+   }
+
+   .vid_pat video {
+      width: 40%;
+      height: 250px;
+      margin-bottom: 1rem;
+   }
+}
+
+/* =====responsive 320-768  */
+@media screen and (min-width: 320px) and (max-width:768px) {
+
+   header .fa-solid {
+      display: flex;
+      font-size: 45px;
+      color: #fff;
+   }
+
+   /* =====acceuil===== */
+   header img {
+      width: 6rem;
+      border-radius: 50%;
+   }
+
+   header .liens {
+      width: 40%;
+      background-color: #e76851;
+      flex-direction: column;
+      position: absolute;
+      top: 10.5%;
+      right: 0;
+      padding: 10px;
+      display: none;
+   }
+
+   header .liens.show {
+      display: flex;
+   }
+
+   header .liens a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.3rem;
+   }
+
+   header .liens a:hover {
+      border-bottom: 2px solid #219621;
+      width: 37%;
+   }
+
+   /* #apropos */
+   #apropos,
+   #materiels,
+   #contact {
+      padding: 25px 10px;
+   }
+
+   #apropos #titre {
+      margin: 0;
+   }
+
+   #apropos>div {
+      flex-direction: column-reverse;
+      gap: 1rem;
+   }
+
+   #apropos img {
+      width: 100%;
+      margin-top: 10px;
+   }
+
+   #apropos .text {
+      width: 100%;
+   }
+
+   /* materiels */
+   #materiels .contenus {
+      flex-direction: column;
+   }
+
+   #materiels .contenu img {
+      width: 100%;
+   }
+
+   /* contact */
+   #contact .row {
+      flex-direction: column-reverse;
+   }
+
+   form {
+      width: 100%;
+   }
+
+   #contact .row .contact-right form {
+      width: 100%;
+   }
+
+   /* =====electro===== */
+   .electro_img {
+      width: 100%;
+      padding: 10px;
+      grid-template-rows: repeat(5, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .vid {
+      flex-direction: column;
+      padding: 10px;
+   }
+
+   .vid video {
+      width: 100%;
+   }
+
+   /* =====materiels===== */
+   .mat_img {
+      width: 100%;
+      grid-template-rows: repeat(13, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      padding: 0 10px;
+   }
+
+   /* =====patisseries===== */
+   .pat_img {
+      width: 100%;
+      flex-direction: column;
+      padding: 10px;
+   }
+
+   .pat_img img {
+      height: 400px;
+   }
+
+}
